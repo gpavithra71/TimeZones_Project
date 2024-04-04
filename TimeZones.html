@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"rel="stylesheet"/>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"rel="stylesheet"/>
+
+<!-- MDB -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.css"rel="stylesheet"/>
+
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+
+<!-- MDB -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.css" rel="stylesheet"/>
+
+
+<style>
+    .card-body{
+        border-radius: 20px !important;
+        box-shadow: 0 0 15px black;
+        margin-top: 20px;
+    }
+</style>
+    <title>Time-Zones</title>
+</head>
+
+
+
+
+<body>
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <!-- ----------------------------------------------------------------------------- -->
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body text-center bg-success text-light">
+                        <h5>
+                            Asia/Kolkata
+                        </h5>
+                        <p>
+                            Time zone in India (GMT+5:30) <br>
+                            Tuesday, 3 January 2023, 9:23 pm
+                        </p>
+                        <h5 class="display-4">
+                            INDIA
+                         </h5>
+                         <p id="indian-date">01/01/2000</p>
+                         <h1 id="indian-time">00:00:00</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- --------------------------------------------------------------------- -->
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body text-center bg-warning text-light">
+                        <h5>
+                            America/New_York
+                        </h5>
+                        <p>
+                            Time zone in Washington, DC, USA (GMT-5) <br>
+                            Tuesday, 3 January 2023, 10:54 am
+                        </p>
+                        <h5 class="display-4">
+                            USA
+                         </h5>
+                         <p id="usa-date">01/01/2000</p>
+                         <h1 id="usa-time">00:00:00</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- --------------------------------------------------------------------------- -->
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body text-center bg-danger text-light">
+                        <h5>
+                            Asia/Shanghai
+                        </h5>
+                        <p>
+                            Time zone in China (GMT+8) <br>
+                            Tuesday, 3 January 2023, 11:55 pm
+
+                        </p>
+                        <h5 class="display-4">
+                            CHINA
+                         </h5>
+                         <p id="china-date">01/01/2000</p>
+                         <h1 id="china-time">00:00:00</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- ------------------------------------------------------- -->
+             <div class="col-4" >
+                <div class="card" >
+                    <div class="card-body text-center bg-dark text-light">
+                        <h5>
+                            Europe/Paris
+
+                        </h5>
+                        <p>
+                            Time zone in United Paris (GMT) <br>
+                            Tuesday, 3 January 2023, 3:50 pm
+                        </p>
+                        <h5 class="display-4">
+                            Paris
+                         </h5>
+                         <p id="Paris-date">01/01/2000</p>
+                         <h1 id="Paris-time">00:00:00</h1>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ------------------------------------------------------------ -->
+            <div class="col-4" >
+                <div class="card" >
+                    <div class="card-body text-center bg-success text-light">
+                        <h5>
+                             Western European Standard Time
+
+                        </h5>
+                        <p>
+                            Time zone in Lisbon, Portugal (GMT) <br>
+                            Tuesday, 3 January 2023, 3:56 pm
+                        </p>
+                        <h5 class="display-4">
+                            Portugal
+                         </h5>
+                         <p id="Portugal-date">01/01/2000</p>
+                         <h1 id="Portugal-time">00:00:00</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- -----------------------------------------------------------------------  -->
+             <div class="col-4" >
+                <div class="card" >
+                    <div class="card-body text-center bg-warning text-light">
+                        <h5>
+                             Moscow Standard Time
+                        </h5>
+                        <p>
+                            Time zone in Moscow, Russia (GMT+3) <br>
+                            Tuesday, 3 January 2023, 7:00 pm
+                        </p>
+                        <h5 class="display-4">
+                             Russia
+                         </h5>
+                         <p id="Russia-date">01/01/2000</p>
+                         <h1 id="Russia-time">00:00:00</h1>
+                    </div>
+                </div>
+            </div>
+           
+
+            <!-- -------------------------------------------------------------------------  -->
+            <div class="col-4" >
+                <div class="card" >
+                    <div class="card-body text-center bg-secondary text-light">
+                        <h5>
+                            Asia/Tokyo
+                        </h5>
+                        <p>
+                            Time zone in Tokyo, Japan (GMT+9) <br>
+                            Wednesday, 4 January 2023, 1:01 am
+                        </p>
+                        <h5 class="display-4">
+                             Japan
+                         </h5>
+                         <p id="Japan-date">01/01/2000</p>
+                         <h1 id="Japan-time">00:00:00</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------------------------------------------------------  -->
+             <div class="col-4" >
+                <div class="card" >
+                    <div class="card-body text-center bg-primary text-light">
+                        <h5>
+                            Central European Standard Time
+                        </h5>
+                        <p>
+                            Time zone in Sweden (GMT+1) <br>
+                            Tuesday, 3 January 2023, 5:03 pm
+                        </p>
+                        <h5 class="display-4">
+                            Sweden
+                         </h5>
+                         <p id="Sweden-date">01/01/2000</p>
+                         <h1 id="Sweden-time">00:00:00</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------------------------------------------------------  -->
+            <div class="col-4" >
+                <div class="card" >
+                    <div class="card-body text-center bg-danger text-light">
+                        <h5>
+                            Eastern Standard Time
+                        </h5>
+                        <p>
+                            Time zone in Ottawa, ON, Canada (GMT-5) <br>
+                            Tuesday, 3 January 2023, 11:06 am
+                        </p>
+                        <h5 class="display-4">
+                            Canada
+                         </h5>
+                         <p id="Canada-date">01/01/2000</p>
+                         <h1 id="Canada-time">00:00:00</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------------------------------------------------------  -->
+
+            <script>
+
+                function india(){
+                    let zone={timeZone:'Asia/Kolkata'};
+                    let currentDate=new Date().toLocaleDateString('en-us',zone);
+                    let currentTime=new Date().toLocaleTimeString('en-us',zone);
+                    document.querySelector('#indian-date').innerText=currentDate
+                    document.querySelector('#indian-time').innerText=currentTime
+                }
+
+                setInterval(india,1000)  //function calling in 1000m/s 
+
+
+
+
+
+                function america(){
+                    let zone={timeZone:'America/New_York'};
+                    let currentDate=new Date().toLocaleDateString('en-us',zone);
+                    let currentTime=new Date().toLocaleTimeString('en-us',zone);
+                    document.querySelector('#usa-date').innerText=currentDate
+                    document.querySelector('#usa-time').innerText=currentTime
+                }
+
+                setInterval(america,1000)  //function calling in 1000m/s 
+
+                function china(){
+                    let zone={timeZone:'Asia/Shanghai'};
+                    let currentDate=new Date().toLocaleDateString('en-us',zone);
+                    let currentTime=new Date().toLocaleTimeString('en-us',zone);
+                    document.querySelector('#china-date').innerText=currentDate
+                    document.querySelector('#china-time').innerText=currentTime
+                }
+
+                setInterval(china,1000)  //function calling in 1000m/s 
+
+
+                
+                function Paris(){
+                    let zone={timeZone:'Europe/Paris'};
+                    let currentDate=new Date().toLocaleDateString('en-us',zone);
+                    let currentTime=new Date().toLocaleTimeString('en-us',zone);
+                    document.querySelector('#Paris-date').innerText=currentDate
+                    document.querySelector('#Paris-time').innerText=currentTime
+                }
+
+                setInterval(Paris,1000)  //function calling in 1000m/s 
+
+
+                function Russia(){
+                    let zone={timeZone:'Europe/Moscow'};
+                    let currentDate=new Date().toLocaleDateString('en-us',zone);
+                    let currentTime=new Date().toLocaleTimeString('en-us',zone);
+                    document.querySelector('#Russia-date').innerText=currentDate
+                    document.querySelector('#Russia-time').innerText=currentTime
+                }
+
+                setInterval(Russia,1000)  //function calling in 1000m/s 
+
+                function Tokyo(){
+                    let zone={timeZone:'Asia/Tokyo'};
+                    let currentDate=new Date().toLocaleDateString('en-us',zone);
+                    let currentTime=new Date().toLocaleTimeString('en-us',zone);
+                    document.querySelector('#Tokyo-date').innerText=currentDate
+                    document.querySelector('#Tokyo-time').innerText=currentTime
+                }
+
+                setInterval(Tokyo,1000)  //function calling in 1000m/s 
+
+
+
+
+
+
+                
+
+
+            </script>
+           
+
+            <!-- -------------------------------------------------------------------------  -->
+            <!-- -------------------------------------------------------------------------  -->
+            <!-- -------------------------------------------------------------------------  -->
+            <!-- -------------------------------------------------------------------------  -->
+            <!-- -------------------------------------------------------------------------  -->
+        </div>
+    </div>
+
+
+
+    <!-- MDB -->
+<script
+type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"></script>
+
+
+
+<!-- 
+    var aryIannaTimeZones = [
+  'Europe/Andorra',
+  'Asia/Dubai',
+  'Asia/Kabul',
+  'Europe/Tirane',
+  'Asia/Yerevan',
+  'Antarctica/Casey',
+  'Antarctica/Davis',
+  'Antarctica/DumontDUrville', // https://bugs.chromium.org/p/chromium/issues/detail?id=928068
+  'Antarctica/Mawson',
+  'Antarctica/Palmer',
+  'Antarctica/Rothera',
+  'Antarctica/Syowa',
+  'Antarctica/Troll',
+  'Antarctica/Vostok',
+  'America/Argentina/Buenos_Aires',
+  'America/Argentina/Cordoba',
+  'America/Argentina/Salta',
+  'America/Argentina/Jujuy',
+  'America/Argentina/Tucuman',
+  'America/Argentina/Catamarca',
+  'America/Argentina/La_Rioja',
+  'America/Argentina/San_Juan',
+  'America/Argentina/Mendoza',
+  'America/Argentina/San_Luis',
+  'America/Argentina/Rio_Gallegos',
+  'America/Argentina/Ushuaia',
+  'Pacific/Pago_Pago',
+  'Europe/Vienna',
+  'Australia/Lord_Howe',
+  'Antarctica/Macquarie',
+  'Australia/Hobart',
+  'Australia/Currie',
+  'Australia/Melbourne',
+  'Australia/Sydney',
+  'Australia/Broken_Hill',
+  'Australia/Brisbane',
+  'Australia/Lindeman',
+  'Australia/Adelaide',
+  'Australia/Darwin',
+  'Australia/Perth',
+  'Australia/Eucla',
+  'Asia/Baku',
+  'America/Barbados',
+  'Asia/Dhaka',
+  'Europe/Brussels',
+  'Europe/Sofia',
+  'Atlantic/Bermuda',
+  'Asia/Brunei',
+  'America/La_Paz',
+  'America/Noronha',
+  'America/Belem',
+  'America/Fortaleza',
+  'America/Recife',
+  'America/Araguaina',
+  'America/Maceio',
+  'America/Bahia',
+  'America/Sao_Paulo',
+  'America/Campo_Grande',
+  'America/Cuiaba',
+  'America/Santarem',
+  'America/Porto_Velho',
+  'America/Boa_Vista',
+  'America/Manaus',
+  'America/Eirunepe',
+  'America/Rio_Branco',
+  'America/Nassau',
+  'Asia/Thimphu',
+  'Europe/Minsk',
+  'America/Belize',
+  'America/St_Johns',
+  'America/Halifax',
+  'America/Glace_Bay',
+  'America/Moncton',
+  'America/Goose_Bay',
+  'America/Blanc-Sablon',
+  'America/Toronto',
+  'America/Nipigon',
+  'America/Thunder_Bay',
+  'America/Iqaluit',
+  'America/Pangnirtung',
+  'America/Atikokan',
+  'America/Winnipeg',
+  'America/Rainy_River',
+  'America/Resolute',
+  'America/Rankin_Inlet',
+  'America/Regina',
+  'America/Swift_Current',
+  'America/Edmonton',
+  'America/Cambridge_Bay',
+  'America/Yellowknife',
+  'America/Inuvik',
+  'America/Creston',
+  'America/Dawson_Creek',
+  'America/Fort_Nelson',
+  'America/Vancouver',
+  'America/Whitehorse',
+  'America/Dawson',
+  'Indian/Cocos',
+  'Europe/Zurich',
+  'Africa/Abidjan',
+  'Pacific/Rarotonga',
+  'America/Santiago',
+  'America/Punta_Arenas',
+  'Pacific/Easter',
+  'Asia/Shanghai',
+  'Asia/Urumqi',
+  'America/Bogota',
+  'America/Costa_Rica',
+  'America/Havana',
+  'Atlantic/Cape_Verde',
+  'America/Curacao',
+  'Indian/Christmas',
+  'Asia/Nicosia',
+  'Asia/Famagusta',
+  'Europe/Prague',
+  'Europe/Berlin',
+  'Europe/Copenhagen',
+  'America/Santo_Domingo',
+  'Africa/Algiers',
+  'America/Guayaquil',
+  'Pacific/Galapagos',
+  'Europe/Tallinn',
+  'Africa/Cairo',
+  'Africa/El_Aaiun',
+  'Europe/Madrid',
+  'Africa/Ceuta',
+  'Atlantic/Canary',
+  'Europe/Helsinki',
+  'Pacific/Fiji',
+  'Atlantic/Stanley',
+  'Pacific/Chuuk',
+  'Pacific/Pohnpei',
+  'Pacific/Kosrae',
+  'Atlantic/Faroe',
+  'Europe/Paris',
+  'Europe/London',
+  'Asia/Tbilisi',
+  'America/Cayenne',
+  'Africa/Accra',
+  'Europe/Gibraltar',
+  'America/Godthab',
+  'America/Danmarkshavn',
+  'America/Scoresbysund',
+  'America/Thule',
+  'Europe/Athens',
+  'Atlantic/South_Georgia',
+  'America/Guatemala',
+  'Pacific/Guam',
+  'Africa/Bissau',
+  'America/Guyana',
+  'Asia/Hong_Kong',
+  'America/Tegucigalpa',
+  'America/Port-au-Prince',
+  'Europe/Budapest',
+  'Asia/Jakarta',
+  'Asia/Pontianak',
+  'Asia/Makassar',
+  'Asia/Jayapura',
+  'Europe/Dublin',
+  'Asia/Jerusalem',
+  'Asia/Kolkata',
+  'Indian/Chagos',
+  'Asia/Baghdad',
+  'Asia/Tehran',
+  'Atlantic/Reykjavik',
+  'Europe/Rome',
+  'America/Jamaica',
+  'Asia/Amman',
+  'Asia/Tokyo',
+  'Africa/Nairobi',
+  'Asia/Bishkek',
+  'Pacific/Tarawa',
+  'Pacific/Enderbury',
+  'Pacific/Kiritimati',
+  'Asia/Pyongyang',
+  'Asia/Seoul',
+  'Asia/Almaty',
+  'Asia/Qyzylorda',
+  'Asia/Qostanay', // https://bugs.chromium.org/p/chromium/issues/detail?id=928068
+  'Asia/Aqtobe',
+  'Asia/Aqtau',
+  'Asia/Atyrau',
+  'Asia/Oral',
+  'Asia/Beirut',
+  'Asia/Colombo',
+  'Africa/Monrovia',
+  'Europe/Vilnius',
+  'Europe/Luxembourg',
+  'Europe/Riga',
+  'Africa/Tripoli',
+  'Africa/Casablanca',
+  'Europe/Monaco',
+  'Europe/Chisinau',
+  'Pacific/Majuro',
+  'Pacific/Kwajalein',
+  'Asia/Yangon',
+  'Asia/Ulaanbaatar',
+  'Asia/Hovd',
+  'Asia/Choibalsan',
+  'Asia/Macau',
+  'America/Martinique',
+  'Europe/Malta',
+  'Indian/Mauritius',
+  'Indian/Maldives',
+  'America/Mexico_City',
+  'America/Cancun',
+  'America/Merida',
+  'America/Monterrey',
+  'America/Matamoros',
+  'America/Mazatlan',
+  'America/Chihuahua',
+  'America/Ojinaga',
+  'America/Hermosillo',
+  'America/Tijuana',
+  'America/Bahia_Banderas',
+  'Asia/Kuala_Lumpur',
+  'Asia/Kuching',
+  'Africa/Maputo',
+  'Africa/Windhoek',
+  'Pacific/Noumea',
+  'Pacific/Norfolk',
+  'Africa/Lagos',
+  'America/Managua',
+  'Europe/Amsterdam',
+  'Europe/Oslo',
+  'Asia/Kathmandu',
+  'Pacific/Nauru',
+  'Pacific/Niue',
+  'Pacific/Auckland',
+  'Pacific/Chatham',
+  'America/Panama',
+  'America/Lima',
+  'Pacific/Tahiti',
+  'Pacific/Marquesas',
+  'Pacific/Gambier',
+  'Pacific/Port_Moresby',
+  'Pacific/Bougainville',
+  'Asia/Manila',
+  'Asia/Karachi',
+  'Europe/Warsaw',
+  'America/Miquelon',
+  'Pacific/Pitcairn',
+  'America/Puerto_Rico',
+  'Asia/Gaza',
+  'Asia/Hebron',
+  'Europe/Lisbon',
+  'Atlantic/Madeira',
+  'Atlantic/Azores',
+  'Pacific/Palau',
+  'America/Asuncion',
+  'Asia/Qatar',
+  'Indian/Reunion',
+  'Europe/Bucharest',
+  'Europe/Belgrade',
+  'Europe/Kaliningrad',
+  'Europe/Moscow',
+  'Europe/Simferopol',
+  'Europe/Kirov',
+  'Europe/Astrakhan',
+  'Europe/Volgograd',
+  'Europe/Saratov',
+  'Europe/Ulyanovsk',
+  'Europe/Samara',
+  'Asia/Yekaterinburg',
+  'Asia/Omsk',
+  'Asia/Novosibirsk',
+  'Asia/Barnaul',
+  'Asia/Tomsk',
+  'Asia/Novokuznetsk',
+  'Asia/Krasnoyarsk',
+  'Asia/Irkutsk',
+  'Asia/Chita',
+  'Asia/Yakutsk',
+  'Asia/Khandyga',
+  'Asia/Vladivostok',
+  'Asia/Ust-Nera',
+  'Asia/Magadan',
+  'Asia/Sakhalin',
+  'Asia/Srednekolymsk',
+  'Asia/Kamchatka',
+  'Asia/Anadyr',
+  'Asia/Riyadh',
+  'Pacific/Guadalcanal',
+  'Indian/Mahe',
+  'Africa/Khartoum',
+  'Europe/Stockholm',
+  'Asia/Singapore',
+  'America/Paramaribo',
+  'Africa/Juba',
+  'Africa/Sao_Tome',
+  'America/El_Salvador',
+  'Asia/Damascus',
+  'America/Grand_Turk',
+  'Africa/Ndjamena',
+  'Indian/Kerguelen',
+  'Asia/Bangkok',
+  'Asia/Dushanbe',
+  'Pacific/Fakaofo',
+  'Asia/Dili',
+  'Asia/Ashgabat',
+  'Africa/Tunis',
+  'Pacific/Tongatapu',
+  'Europe/Istanbul',
+  'America/Port_of_Spain',
+  'Pacific/Funafuti',
+  'Asia/Taipei',
+  'Europe/Kiev',
+  'Europe/Uzhgorod',
+  'Europe/Zaporozhye',
+  'Pacific/Wake',
+  'America/New_York',
+  'America/Detroit',
+  'America/Kentucky/Louisville',
+  'America/Kentucky/Monticello',
+  'America/Indiana/Indianapolis',
+  'America/Indiana/Vincennes',
+  'America/Indiana/Winamac',
+  'America/Indiana/Marengo',
+  'America/Indiana/Petersburg',
+  'America/Indiana/Vevay',
+  'America/Chicago',
+  'America/Indiana/Tell_City',
+  'America/Indiana/Knox',
+  'America/Menominee',
+  'America/North_Dakota/Center',
+  'America/North_Dakota/New_Salem',
+  'America/North_Dakota/Beulah',
+  'America/Denver',
+  'America/Boise',
+  'America/Phoenix',
+  'America/Los_Angeles',
+  'America/Anchorage',
+  'America/Juneau',
+  'America/Sitka',
+  'America/Metlakatla',
+  'America/Yakutat',
+  'America/Nome',
+  'America/Adak',
+  'Pacific/Honolulu',
+  'America/Montevideo',
+  'Asia/Samarkand',
+  'Asia/Tashkent',
+  'America/Caracas',
+  'Asia/Ho_Chi_Minh',
+  'Pacific/Efate',
+  'Pacific/Wallis',
+  'Pacific/Apia',
+  'Africa/Johannesburg'
+];
+
+let date = new Date;
+aryIannaTimeZones.forEach((timeZone) =>
+{
+  let strTime = date.toLocaleString("en-US", {timeZone: `${timeZone}`});
+  console.log(timeZone, strTime);
+});
+
+
+
+ -->
+
+</body>
+</html>
